@@ -33,7 +33,9 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>
+<!--        不注释会报错 Failed to load class [javax.servlet.Filter]; nested exception is java.lang.ClassNotFoundException: javax.servlet.Filter
+   https://stackoverflow.com/a/32419028/5646921 -->
+<!--            <scope>provided</scope>-->
         </dependency>
 
         <dependency>
